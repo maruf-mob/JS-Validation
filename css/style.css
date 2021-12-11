@@ -1,0 +1,73 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+img{
+    vertical-align: middle;
+}
+ul{
+    list-style: none;
+}
+
+/* ============================
+        common css ends
+================================ */
+.main{
+    width:100%;
+    height:100vh;
+    display:none;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:999;
+    background:rgba(239, 239, 239,0.6);
+}
+.main .form-container{
+    width:650px;
+    padding:20px;
+    box-shadow:0px 0px 10px 0px rgba(0,0,0,0.3);
+}
+.main .form-container form .grp{
+    padding:10px;
+    margin-bottom:20px;
+}
+.main .form-container form .grp small{
+    color:firebrick;
+    text-transform: capitalize;
+    margin-top:5px;
+    display:block;
+}
+.main .form-container form .grp input{
+    padding:20px;
+    width:100%;
+    outline:none;
+    border:1px solid #ddd;
+}
+.main .form-container form .grp button{
+    padding:20px;
+    background:tomato;
+    text-transform: uppercase;
+    color:#fff;
+    border:none;
+    width:100%;
+    cursor:pointer;
+}
+.btn{
+    width:30px;
+    height:30px;
+    background:purple;
+    position:absolute;
+    right:50px;
+    top:50px;
+    cursor:pointer;
+}
+span{
+    display:inline-block;
+    text-align:right;
+    cursor: pointer;
+    font-size:36px;
+    color:#121212;
+}
